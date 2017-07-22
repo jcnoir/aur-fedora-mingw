@@ -99,6 +99,9 @@ dependencies=(
     # From AUR
     mingw-w64-tools     # Required by cairo and harfbuzz
 )
+pkgs=(
+	$1
+)
 
 xbuild=(
     # GTK+2/3 dependencies
