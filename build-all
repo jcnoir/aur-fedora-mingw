@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -x
+
 usage() {
     echo <<EOT
 Usage: $0 ARCH [PACKAGE TO SKIP]...
