@@ -115,11 +115,11 @@ xbuild=(
     fedora-mingw-w64-libjpeg-turbo
     fedora-mingw-w64-libffi
     fedora-mingw-w64-pcre       # Required by glib >= 2.47.5
-    fedora-mingw-w64-glib2
+    #fedora-mingw-w64-glib2
 
     # Let us compile introspection early in order
     # to be able to enable it on other projects
-    afm-mingw-w64-gobject-introspection
+    #afm-mingw-w64-gobject-introspection
 
     #fedora-mingw-w64-freetype
     #fedora-mingw-w64-fontconfig
